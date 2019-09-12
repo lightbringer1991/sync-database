@@ -1,4 +1,4 @@
-import MySQL from './src/modules/MySQL';
+const MySQL = require('./src/modules/MySQL');
 
 module.exports = {
   MySQL,
