@@ -1,0 +1,30 @@
+{
+  "name": "sync-database",
+  "version": "1.0.0",
+  "description": "Utility to synchronize database from remote to local, and vice versa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightbringer1991/sync-database.git"
+  },
+  "keywords": [
+    "synchronize",
+    "backup",
+    "database",
+    "mysql"
+  ],
+  "author": "Tuan Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightbringer1991/sync-database/issues"
+  },
+  "homepage": "https://github.com/lightbringer1991/sync-database#readme",
+  "dependencies": {
+    "mysql": "^2.17.1",
+    "mysql-import": "^2.0.2",
+    "mysqldump": "^3.1.0"
+  }
+}
